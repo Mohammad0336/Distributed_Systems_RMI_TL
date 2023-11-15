@@ -47,7 +47,7 @@ run these commands in the second terminal
 ```bash
 cd Dsys_a2/Server
 javac *.java
-java ServerFile.java
+java -Djava.security.policy=policy.txt ServerFile
 ```
 
 Open a terminal in the client file
